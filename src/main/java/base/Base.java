@@ -19,6 +19,8 @@ public class Base {
     public Base() {
         String driverName;
         setUp("chrome");
+        
+        
     }
     public void setUp(String driverName) {
     

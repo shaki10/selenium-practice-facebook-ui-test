@@ -16,4 +16,5 @@ public  class NonAbsClass implements AbsClass{
     public void display1() {
     
     }
+
 }

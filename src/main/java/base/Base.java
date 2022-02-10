@@ -20,7 +20,6 @@ public class Base {
         String driverName;
         setUp("chrome");
         
-        
     }
     public void setUp(String driverName) {
     
@@ -40,67 +39,8 @@ public class Base {
         }
         this.webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
-    //@AfterClass
-    //@AfterTest
     
     public void driver(String s) {
     
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

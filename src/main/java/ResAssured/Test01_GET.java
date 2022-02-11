@@ -13,10 +13,10 @@ public class Test01_GET {
     
 @Test
     public void test_01(){
-       response = RestAssured.get("https://petstore.swagger.io/v2/pet/findByStatus?status=available");
+       response = RestAssured.get("https://reqres.in/api/users?page=2");
     
     
-        System.out.println(response.asString());
+        System.out.println(response.getBody().asString());
         System.out.println(response.getBody().jsonPath());
         System.out.println(response.getStatusCode());
         System.out.println(response.statusLine());

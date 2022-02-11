@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="anything">
+    <listeners>
+        <listener class-name="TestNg.TestNGTestListener"></listener>
+    </listeners>
+    <test name="name it anything" preserve-order="true">
+        <classes>
+            <class name="TestNg.TesNGSimple">
+                <methods>
+                    <include name="testMethod1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

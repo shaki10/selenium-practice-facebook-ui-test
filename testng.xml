@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="/Users/shaki/IdeaProjects/selenium-practice-facebook-ui-test/src/main/java/TestNg/ChaseHomePage.java">
-        <classes>
-            <class name="TestNg.ChaseHomePage">
-                <methods>
-                    <include name="method6"/>
-                    <include name="method19"/>
-                </methods>
-            </class>
-        </classes>
+    <test verbose="2" preserve-order="true" name="/Users/shaki/IdeaProjects/selenium-practice-facebook-ui-test/pom.xml">
+        <classes/>
     </test>
 </suite>
-

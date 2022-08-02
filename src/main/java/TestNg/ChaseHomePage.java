@@ -110,6 +110,7 @@ public class ChaseHomePage {
     public void method16() {
         System.out.println("BeforeGroups- smoke");
         
+        
     }
     
     @Test(enabled = false, groups = {"smoke"})
@@ -121,6 +122,8 @@ public class ChaseHomePage {
     public void method19() {
         System.out.println("I am method 18");
     }
+    
+    
     
     
 }

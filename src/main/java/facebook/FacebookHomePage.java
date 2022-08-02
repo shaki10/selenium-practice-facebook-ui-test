@@ -3,6 +3,7 @@ package facebook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,6 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FacebookHomePage {
     public static Object creatNewFacebookAccount;
+    WebDriver driver = new ChromeDriver();
+    
     
     @FindBy (xpath ="//a[@data-testid='open-registration-form-button']")
     public WebElement createAccountButton;
@@ -53,7 +56,7 @@ public class FacebookHomePage {
     @FindBy(xpath = "//button[@type='submit'][@name='websubmit']")
     public WebElement submitButton;
     
-    public WebDriver driver;
+  
     public WebDriverWait webDriverWait;
     
     public FacebookHomePage(WebDriver driver, WebDriverWait webDriverWait) {

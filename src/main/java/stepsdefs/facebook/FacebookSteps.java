@@ -8,13 +8,18 @@ import io.cucumber.java.en.When;
 import java.util.List;
 import java.util.Map;
 
-public class FacebookSteps {
+public class FacebookSteps extends base {
+
+
+
+
+
     
-    //FacebookHomePage facebookHomePage = new FacebookHomePage(driver,webDriverWait);
+    /*FacebookHomePage facebookHomePage = new FacebookHomePage(driver,webDriverWait);
     
     @Given("I am in facebook home page")
     public void IAmInFacebookHomePage() {
-        //driver.get("https://www.facebook.com");
+        driver.get("https://www.facebook.com");
         System.out.println("I am in IAmInFacebookHomePage()...");
     }
     

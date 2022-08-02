@@ -1,11 +1,13 @@
+import base.Base;
 import base.Base1;
 import org.openqa.selenium.By;
 
-public class FacebookHomePage {
+public class FacebookHomePage extends Base {
     
     
     public static void main(String args[]) {
-        Base1 base = new Base1("chrome");
+        Base base = new Base();
+        base.setUp("chromedriver");
         //base.setUp("safari");
         base.driver.get("https://www.facebook.com/");
         base.driver.manage().window().fullscreen();
@@ -14,6 +16,7 @@ public class FacebookHomePage {
         base.driver.findElement(By.name("email")).sendKeys("shaki_haque@yahoo.com");
         base.driver.findElement(By.id("pass")).sendKeys("AyDeen@2017");
         base.driver.findElement(By.name("login")).click();
+
         
         
         

@@ -18,7 +18,7 @@ import org.w3c.dom.html.HTMLInputElement;
 import java.time.Instant;
 
 
-public class FacebookJunit {
+public class gitFacebookJunit {
     
     public static WebDriver driver;
     public static WebDriverWait wait;

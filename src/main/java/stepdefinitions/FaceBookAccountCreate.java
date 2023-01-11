@@ -104,6 +104,11 @@ public class FaceBookAccountCreate {
     public void iClickOnSignInButton() {
         System.out.println("I am inside iClickOnSignInButton()....");
     }
+
+    @When("I enter credentials")
+    public void iEnterCredentials() {
+
+    }
 }
 
 

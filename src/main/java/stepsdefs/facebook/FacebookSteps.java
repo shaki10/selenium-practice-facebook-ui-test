@@ -1,5 +1,6 @@
 package stepsdefs.facebook;
 
+import base.Base;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -8,7 +9,7 @@ import io.cucumber.java.en.When;
 import java.util.List;
 import java.util.Map;
 
-public class FacebookSteps extends base {
+public class FacebookSteps extends Base {
 
 
 
@@ -39,7 +40,7 @@ public class FacebookSteps extends base {
         for(Map<String,String> data : dataAsMap){
             System.out.println("Record::" + data.get("email")+" --- "+data.get("password"));
         }*/
-    }
+
     
     @When("I enter data")
     public void doSomething(DataTable dataTable){

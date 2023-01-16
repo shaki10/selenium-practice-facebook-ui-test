@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class FacebookHomePage extends Base {
     
     
-    public static void main(String args[]) {
+    public static void main(String arg[]) {
         Base base = new Base();
         base.setUp("chromedriver");
         //base.setUp("safari");

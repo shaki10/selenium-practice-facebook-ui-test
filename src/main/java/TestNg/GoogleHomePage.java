@@ -33,7 +33,8 @@ public class GoogleHomePage{
         
         @DataProvider(name = "googleData")
         public Object[][] createGooleTestData(){
-            return new Object[][] {{"muffin@gmail.com","m00njdfh"},{"kelly@gmail.com","Gusdh23"}};
+            return new Object[][] {
+                    {"muffin@gmail.com","m00njdfh"},{"kelly@gmail.com","Gusdh23"}};
             
         }
         

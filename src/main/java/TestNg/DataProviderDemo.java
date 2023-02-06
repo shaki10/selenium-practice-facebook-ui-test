@@ -23,10 +23,7 @@ public class DataProviderDemo {
         
       
     }
-    
-    
-    
-   @DataProvider(name = "create")
+    @DataProvider(name = "create")
     
     public Object[][] dataSet1() {
         return new Object[][]{

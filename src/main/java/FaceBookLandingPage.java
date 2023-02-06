@@ -21,6 +21,9 @@ public class FaceBookLandingPage {
         }catch (Exception e){
         
         }
+        finally {
+            System.out.println("I am the best");
+        }
         
     }
     

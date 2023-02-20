@@ -13,5 +13,5 @@ Feature:Get pet from the petstore with GET API
       When I sent the POST request with valid header
       Then I validate the successful response
       When I send request with valid url and valid pet ID
-      Then I delete the pet
+
 

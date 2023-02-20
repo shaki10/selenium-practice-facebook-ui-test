@@ -3,11 +3,13 @@ package animal;
 public class Dog extends Animal{
     @Override
     int cow() {
-        return 0;
+        int a = 4;
+        return a;
     }
 
     @Override
     int leg() {
-        return 0;
+        int count = 19;
+        return 20;
     }
 }

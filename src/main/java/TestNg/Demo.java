@@ -4,6 +4,9 @@ package TestNg;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Demo implements ITestListener {
@@ -13,16 +16,18 @@ public class Demo implements ITestListener {
         System.out.println("Start the Demo");
         
     }
+    @BeforeTest
     
     public void onStart(ITestContext context) {
         
         System.out.println("onStart method started");
     }
-    
+    @AfterTest
     public void onFinish(ITestContext context) {
+
         System.out.println("onFinish method started");
     }
-    
+    @BeforeMethod
     public void onTestStart(ITestResult result) {
         
         System.out.println("New Test Started" + result.getName());

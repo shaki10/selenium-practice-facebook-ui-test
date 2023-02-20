@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeTest;
 
 import java.time.Duration;
 
@@ -15,7 +16,7 @@ public class Base {
     
     
     //@BeforeClass
-    //@BeforeTest
+   // @BeforeTest
     public Base() {
         String driverName;
         setUp("chrome");
